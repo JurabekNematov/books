@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Books</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="container-book">
+
+      <nav class="nav d-flex align-items-center justify-content-between">
+
+        <a class="nav-link d-inline-block" href="./index.html">
+          <img class="logo" src="./images/sait-logo.svg" alt="Logo of book">
+        </a>
+
+
+        <ul class="nal-list d-flex mb-0 list-unstyled">
+
+          <li class="nav-item me-3">
+            <a class="link text-decoration-none link-dark" href="./index.html">Home</a>
+          </li>
+
+          <li class="nav-item me-3">
+            <a class="link text-decoration-none link-dark" href="./index.html">Portfolio</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="link text-decoration-none link-dark" href="https://github.com/JurabekNematov">My Github</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="site-main">
+    <div class="container-book">
+      <h1 class="visually-hidden">Books main section start</h1>
+      <form class ="books-form js-form">
+        <input class="books-input js-input" type="text" placeholder="Book name, please..." aria-label=" enter the book you are looking for">
+        <select class="books-select js-select">
+          <option value="all">All</option>
+        </select>
+        <button class="books-btn px-5">Search</button>
+      </form>
+      <ul class="js-list d-flex justify-content-center flex-wrap mt-0 mb-0 p-lg-0 gap-5 list-unstyled">
+      </ul>
+    </div>
+  </main>
+
+
+  <!-- scripts -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="/js/books.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
